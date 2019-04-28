@@ -1,0 +1,90 @@
+.digital-display {
+    display: inline-block;
+    position: relative;
+}
+
+.display-digit {
+    display: block;
+    background-color: #2a363c;
+    width: 100px;
+    height: 170px;
+}
+
+.segment {
+    background-color: #1f292d;
+    min-width: 10px;
+    min-height: 10px;
+    display: inline-block;
+    position: absolute;
+}
+
+.off {
+    background-color: gray;
+}
+
+.on {
+    background-color: red;
+}
+
+.segment-a {
+    top: 10px;
+    left: 20px;
+    width: 60px
+}
+
+.segment-b {
+    top: 20px;
+    left: 80px;
+    height: 60px;
+}
+
+.segment-c {
+    top: 90px;
+    left: 80px;
+    height: 60px;
+}
+
+.segment-d {
+    top: 150px;
+    left: 20px;
+    width: 60px;
+}
+
+.segment-e {
+    top: 90px;
+    left: 10px;
+    height: 60px;
+}
+
+.segment-f {
+    top: 20px;
+    left: 10px;
+    height: 60px;
+}
+
+.segment-g {
+    top: 80px;
+    left: 20px;
+    width: 60px;
+}
+
+.display-colon {
+    display: block;
+    background-color: #2a363c;
+    width: 60px;
+    height: 170px;
+}
+
+.display-colon .dot-up {
+    top: 45px;
+    left: 25px;
+    width: 10px;
+    border-radius: 100px;
+}
+
+.display-colon .dot-down {
+    top: 110px;
+    left: 25px;
+    width: 10px;
+    border-radius: 100px;
+}

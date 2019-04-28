@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url("./bg-005.gif")
+        }
+
+        #greenBox {
+            position: absolute;
+            top: 200px;
+            left: 500px;
+            width: 20px;
+            height: 30px;
+            z-index: 100;
+            background-color: greenyellow;
+            border: 2px solid cyan;
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="../src/digital-display.css">
+    <script src="../src/digital-display.js"></script>
+</head>
+
+<body>
+
+    <div id="greenBox"></div>
+
+    <script>
+        var dd1 = new DigitalDisplay("00:00:00", {
+            el: null,
+            x: 0,
+            y: 0
+        });
+
+        dd1.displayText("88:88 88");
+        dd1.getWidth();
+        dd1.getHeight();
+
+        var dd2 = new DigitalDisplay("00:00", {
+            el: null,
+            x: 20,
+            y: 200,
+            baseUnit: 5
+        });
+
+        var dd3 = new DigitalDisplay("abcdef", {
+            el: null,
+            x: 20,
+            y: 400,
+            baseUnit: 5
+        });
+
+        var dd4 = new DigitalDisplay("00:00:00", {
+            el: "greenBox",
+            x: 10,
+            y: 10,
+            class: "mio",
+            width: 100
+        })
+
+    </script>
+
+</body>
+
+</html>

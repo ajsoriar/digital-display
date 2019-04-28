@@ -1,0 +1,9 @@
+/**
+ * digital-display
+ * Javascript library to draw 7-segment displays
+ * @version v1.0.0 - 2019-04-28
+ * @link https://github.com/ajsoriar/digital-display
+ * @author Andres J. Soria R. <ajsoriar@gmail.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+ 
